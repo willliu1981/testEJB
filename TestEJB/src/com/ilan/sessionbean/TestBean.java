@@ -1,6 +1,7 @@
 package com.ilan.sessionbean;
 
 import javax.ejb.LocalBean;
+import javax.ejb.Remote;
 import javax.ejb.Stateless;
 
 /**

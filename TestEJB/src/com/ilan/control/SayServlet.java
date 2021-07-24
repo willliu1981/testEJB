@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.ilan.sessionbean.TestRemoteBeanRemote;
+import com.ilan.sessionbean.ITestRemoteBean;
 
 /**
  * Servlet implementation class SayServlet
@@ -18,7 +18,7 @@ import com.ilan.sessionbean.TestRemoteBeanRemote;
 public class SayServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	@EJB
-	TestRemoteBeanRemote bean;
+	ITestRemoteBean bean;
 
 	/**
 	 * @see HttpServlet#HttpServlet()
